@@ -4,7 +4,7 @@ Version=1.0
 Type=Application
 Terminal=false
 Name=Is it friday?
-Exec=/opt/IsItFriday/bin/IsItFriday
+Exec=/usr/bin/invoker --single-instance  --type=d /opt/IsItFriday/bin/IsItFriday
 Icon=/usr/share/icons/hicolor/80x80/apps/IsItFriday80.png
 X-Window-Icon=
 X-HildonDesk-ShowInToolbar=true
